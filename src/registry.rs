@@ -67,6 +67,7 @@ impl Registry {
         r.register_helper("block", Box::new(helpers::BLOCK_HELPER));
         r.register_helper("partial", Box::new(helpers::PARTIAL_HELPER));
         r.register_helper("log", Box::new(helpers::LOG_HELPER));
+        r.register_helper("compare", Box::new(helpers::COMPARE_HELPER));
 
         r
     }
